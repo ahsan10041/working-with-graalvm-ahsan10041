@@ -1,0 +1,151 @@
+[Sat May 06 20:18:59 CEST 2023][INFO] ==================== COMPILE TASK ====================
+[Sat May 06 20:19:01 CEST 2023][INFO] We will now compile your code for x86_64-microsoft-windows. This may take some time.
+[Sat May 06 20:19:01 CEST 2023][FINE] Processing JavaStatic dependencies at C:\Users\Sharam ker Ahsan\.gluon\substrate\javaStaticSdk\18-ea+prep18-8\windows-x86_64\staticjdk\lib\static
+[Sat May 06 20:19:01 CEST 2023][FINE] Processing JavaFXStatic dependencies at C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib
+[Sat May 06 20:19:01 CEST 2023][INFO] Downloading JavaFX static libs...
+[Sat May 06 20:19:01 CEST 2023][FINE] Processing zip file: url = https://download2.gluonhq.com/substrate/javafxstaticsdk/openjfx-21-ea+9.1-windows-x86_64-static.zip, zip = C:\Users\Sharam ker Ahsan\.gluon\substrate\openjfx-21-ea+9.1-windows-x86_64-static.zip, subDir = javafxStaticSdk, levels = [21-ea+9.1, windows-x86_64], md5 = javafxStaticSdk-windows-x86_64.md5
+[Sat May 06 20:19:23 CEST 2023][INFO] JavaFX static libs downloaded successfully
+[Sat May 06 20:19:23 CEST 2023][FINE] Setup dependencies done
+[Sat May 06 20:19:23 CEST 2023][FINE] Extracting native libs to: F:\Software Engineering\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\lib
+[Sat May 06 20:19:23 CEST 2023][FINE] Looking for resource: /native/windows/launcher.c
+[Sat May 06 20:19:23 CEST 2023][FINE] PB Command for compile-additional-sources: cl -c -DSUBSTRATE /MD /D_UNICODE /DUNICODE /DWIN32 /D_WINDOWS -IF:\Software Engineering\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\javafx-native-example launcher.c
+[Sat May 06 20:19:23 CEST 2023][FINE] Start process compile-additional-sources...
+[Sat May 06 20:22:30 CEST 2023][INFO] ==================== COMPILE TASK ====================
+[Sat May 06 20:22:32 CEST 2023][INFO] We will now compile your code for x86_64-microsoft-windows. This may take some time.
+[Sat May 06 20:22:32 CEST 2023][FINE] Extracting native libs to: C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\lib
+[Sat May 06 20:22:32 CEST 2023][FINE] Looking for resource: /native/windows/launcher.c
+[Sat May 06 20:22:32 CEST 2023][FINE] PB Command for compile-additional-sources: cl -c -DSUBSTRATE /MD /D_UNICODE /DUNICODE /DWIN32 /D_WINDOWS -IC:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\javafx-native-example launcher.c
+[Sat May 06 20:22:32 CEST 2023][FINE] Start process compile-additional-sources...
+[Sat May 06 20:22:33 CEST 2023][FINE] [SUB] Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+[Sat May 06 20:22:33 CEST 2023][FINE] [SUB] Copyright (C) Microsoft Corporation.  All rights reserved.
+[Sat May 06 20:22:33 CEST 2023][FINE] [SUB] 
+[Sat May 06 20:22:33 CEST 2023][FINE] [SUB] launcher.c
+[Sat May 06 20:22:33 CEST 2023][FINE] Result for compile-additional-sources: 0
+[Sat May 06 20:22:33 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\hello\HelloWorld.fxml to C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553\hello\HelloWorld.fxml
+[Sat May 06 20:22:33 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\hello\HelloWorldApplication.class to C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553\hello\HelloWorldApplication.class
+[Sat May 06 20:22:33 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\hello\HelloWorldController.class to C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553\hello\HelloWorldController.class
+[Sat May 06 20:22:33 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\hello\Main.class to C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553\hello\Main.class
+[Sat May 06 20:22:33 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\META-INF\native-image\filter-file.json to C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553\META-INF\native-image\filter-file.json
+[Sat May 06 20:22:33 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\META-INF\native-image\jni-config.json to C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553\META-INF\native-image\jni-config.json
+[Sat May 06 20:22:33 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\META-INF\native-image\predefined-classes-config.json to C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553\META-INF\native-image\predefined-classes-config.json
+[Sat May 06 20:22:33 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\META-INF\native-image\proxy-config.json to C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553\META-INF\native-image\proxy-config.json
+[Sat May 06 20:22:33 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\META-INF\native-image\reflect-config.json to C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553\META-INF\native-image\reflect-config.json
+[Sat May 06 20:22:33 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\META-INF\native-image\resource-config.json to C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553\META-INF\native-image\resource-config.json
+[Sat May 06 20:22:34 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\META-INF\native-image\serialization-config.json to C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553\META-INF\native-image\serialization-config.json
+[Sat May 06 20:22:34 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\module-info.class to C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553\module-info.class
+[Sat May 06 20:22:34 CEST 2023][FINE] PB Command for jar: C:\Users\Sharam ker Ahsan\Downloads\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\bin\jar.exe cf C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553\classes.jar -C C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553 .
+[Sat May 06 20:22:34 CEST 2023][FINE] Start process jar...
+[Sat May 06 20:22:35 CEST 2023][FINE] Result for jar: 0
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning for init build time files
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.base.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.controls.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.fxml.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.graphics.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553\classes.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning for reflection files
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.base.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Adding classes from C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.base.jar::META-INF/substrate/config/reflectionconfig.json
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.controls.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Adding classes from C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.controls.jar::META-INF/substrate/config/reflectionconfig.json
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.fxml.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Adding classes from C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.fxml.jar::META-INF/substrate/config/reflectionconfig.json
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.graphics.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Adding classes from C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/reflectionconfig-x86_64-windows.json
+[Sat May 06 20:22:35 CEST 2023][FINE] Adding classes from C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/reflectionconfig.json
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553\classes.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning for JNI files
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.base.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.controls.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.fxml.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.graphics.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Adding classes from C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/jniconfig-x86_64-windows.json
+[Sat May 06 20:22:35 CEST 2023][FINE] Adding classes from C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/jniconfig.json
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553\classes.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning for resource files
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.base.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.controls.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.fxml.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.graphics.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Scanning C:\Users\SHARAM~1\AppData\Local\Temp\classes190646467568174553\classes.jar
+[Sat May 06 20:22:35 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\hello\HelloWorld.fxml to C:\Users\SHARAM~1\AppData\Local\Temp\classes15644330213944311960\hello\HelloWorld.fxml
+[Sat May 06 20:22:35 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\hello\HelloWorldApplication.class to C:\Users\SHARAM~1\AppData\Local\Temp\classes15644330213944311960\hello\HelloWorldApplication.class
+[Sat May 06 20:22:35 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\hello\HelloWorldController.class to C:\Users\SHARAM~1\AppData\Local\Temp\classes15644330213944311960\hello\HelloWorldController.class
+[Sat May 06 20:22:35 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\hello\Main.class to C:\Users\SHARAM~1\AppData\Local\Temp\classes15644330213944311960\hello\Main.class
+[Sat May 06 20:22:35 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\META-INF\native-image\filter-file.json to C:\Users\SHARAM~1\AppData\Local\Temp\classes15644330213944311960\META-INF\native-image\filter-file.json
+[Sat May 06 20:22:35 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\META-INF\native-image\jni-config.json to C:\Users\SHARAM~1\AppData\Local\Temp\classes15644330213944311960\META-INF\native-image\jni-config.json
+[Sat May 06 20:22:35 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\META-INF\native-image\predefined-classes-config.json to C:\Users\SHARAM~1\AppData\Local\Temp\classes15644330213944311960\META-INF\native-image\predefined-classes-config.json
+[Sat May 06 20:22:35 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\META-INF\native-image\proxy-config.json to C:\Users\SHARAM~1\AppData\Local\Temp\classes15644330213944311960\META-INF\native-image\proxy-config.json
+[Sat May 06 20:22:35 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\META-INF\native-image\reflect-config.json to C:\Users\SHARAM~1\AppData\Local\Temp\classes15644330213944311960\META-INF\native-image\reflect-config.json
+[Sat May 06 20:22:35 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\META-INF\native-image\resource-config.json to C:\Users\SHARAM~1\AppData\Local\Temp\classes15644330213944311960\META-INF\native-image\resource-config.json
+[Sat May 06 20:22:35 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\META-INF\native-image\serialization-config.json to C:\Users\SHARAM~1\AppData\Local\Temp\classes15644330213944311960\META-INF\native-image\serialization-config.json
+[Sat May 06 20:22:35 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\classes\module-info.class to C:\Users\SHARAM~1\AppData\Local\Temp\classes15644330213944311960\module-info.class
+[Sat May 06 20:22:35 CEST 2023][FINE] PB Command for jar: C:\Users\Sharam ker Ahsan\Downloads\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\bin\jar.exe cf C:\Users\SHARAM~1\AppData\Local\Temp\classes15644330213944311960\classes.jar -C C:\Users\SHARAM~1\AppData\Local\Temp\classes15644330213944311960 .
+[Sat May 06 20:22:35 CEST 2023][FINE] Start process jar...
+[Sat May 06 20:22:36 CEST 2023][FINE] Result for jar: 0
+[Sat May 06 20:22:36 CEST 2023][FINE] Scanning for resource bundles
+[Sat May 06 20:22:36 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.base.jar
+[Sat May 06 20:22:36 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.controls.jar
+[Sat May 06 20:22:36 CEST 2023][FINE] Adding classes from C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.controls.jar::META-INF/substrate/config/resourcebundles
+[Sat May 06 20:22:36 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.fxml.jar
+[Sat May 06 20:22:36 CEST 2023][FINE] Scanning C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.graphics.jar
+[Sat May 06 20:22:36 CEST 2023][FINE] Adding classes from C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/resourcebundles
+[Sat May 06 20:22:36 CEST 2023][FINE] Adding classes from C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/resourcebundles-x86_64-windows
+[Sat May 06 20:22:36 CEST 2023][FINE] Scanning C:\Users\SHARAM~1\AppData\Local\Temp\classes15644330213944311960\classes.jar
+[Sat May 06 20:22:36 CEST 2023][FINE] PB Command for java-version: C:\Users\Sharam ker Ahsan\Downloads\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\bin\java --version
+[Sat May 06 20:22:36 CEST 2023][FINE] Start process java-version...
+[Sat May 06 20:22:37 CEST 2023][FINE] [SUB] openjdk 17.0.3 2022-04-19
+[Sat May 06 20:22:37 CEST 2023][FINE] [SUB] OpenJDK Runtime Environment GraalVM 22.1.0.1 (build 17.0.3+7-jvmci-22.1-b06)
+[Sat May 06 20:22:37 CEST 2023][FINE] [SUB] OpenJDK 64-Bit Server VM GraalVM 22.1.0.1 (build 17.0.3+7-jvmci-22.1-b06, mixed mode, sharing)
+[Sat May 06 20:22:37 CEST 2023][FINE] Result for java-version: 0
+[Sat May 06 20:22:37 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.base.jar to C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.base.jar
+[Sat May 06 20:22:37 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.controls.jar to C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.controls.jar
+[Sat May 06 20:22:37 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.fxml.jar to C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.fxml.jar
+[Sat May 06 20:22:37 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib\javafx.graphics.jar to C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.graphics.jar
+[Sat May 06 20:22:37 CEST 2023][FINE] Class-Path manifest entry for pathing jar: ..\..\..\..\classes deps\javafx.base.jar deps\javafx.controls.jar deps\javafx.fxml.jar deps\javafx.graphics.jar
+[Sat May 06 20:22:37 CEST 2023][FINE] Pathing jar created at C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\tmp\classpathJar.jar
+[Sat May 06 20:22:37 CEST 2023][FINE] PB Command for compile: C:\Users\Sharam ker Ahsan\Downloads\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\bin\native-image.cmd "-Djdk.internal.lambda.eagerlyInitialize=false" --no-server -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout "-H:DeadlockWatchdogInterval=0" -H:+RemoveSaturatedTypeFlows -H:+ExitAfterRelocatableImageWrite "--features=org.graalvm.home.HomeFinderFeature" "-H:TempDirectory=C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\tmp" "-H:EnableURLProtocols=http,https" "-H:ReflectionConfigurationFiles=C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\reflectionconfig-x86_64-windows.json" "-H:JNIConfigurationFiles=C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\jniconfig-x86_64-windows.json" "-H:ResourceConfigurationFiles=C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\resourceconfig-x86_64-windows.json" "-H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com/sun/glass/ui/win/themes" "-Dsvm.platform=org.graalvm.nativeimage.Platform$WINDOWS_AMD64" -cp "C:\Users\Sharam ker Ahsan\.m2\repository\com\gluonhq\substrate\0.0.58\substrate-0.0.58.jar;C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\tmp\classpathJar.jar" hello.Main
+[Sat May 06 20:22:37 CEST 2023][FINE] Start process compile...
+[Sat May 06 20:22:37 CEST 2023][INFO] [SUB] Warning: Ignoring server-mode native-image argument --no-server.
+[Sat May 06 20:22:47 CEST 2023][INFO] [SUB] ========================================================================================================================
+[Sat May 06 20:22:47 CEST 2023][INFO] [SUB] GraalVM Native Image: Generating 'hello.main' (shared library)...
+[Sat May 06 20:22:47 CEST 2023][INFO] [SUB] ========================================================================================================================
+[Sat May 06 20:23:00 CEST 2023][INFO] [SUB] [1/7] Initializing...                                                                                   (19.2s @ 0.15GB)
+[Sat May 06 20:23:00 CEST 2023][INFO] [SUB]  Version info: 'GraalVM 22.1.0.1 Java 17 CE'
+[Sat May 06 20:23:00 CEST 2023][INFO] [SUB]  C compiler: cl.exe (microsoft, x64, 19.35.32217)
+[Sat May 06 20:23:00 CEST 2023][INFO] [SUB]  Garbage collector: Serial GC
+[Sat May 06 20:25:49 CEST 2023][INFO] [SUB] [2/7] Performing analysis...  [**************]                                                         (168.4s @ 2.80GB)
+[Sat May 06 20:25:49 CEST 2023][INFO] [SUB]   11,483 (90.21%) of 12,729 classes reachable
+[Sat May 06 20:25:49 CEST 2023][INFO] [SUB]   20,413 (66.26%) of 30,807 fields reachable
+[Sat May 06 20:25:49 CEST 2023][INFO] [SUB]   56,615 (63.45%) of 89,225 methods reachable
+[Sat May 06 20:25:49 CEST 2023][INFO] [SUB]      660 classes,   179 fields, and 2,917 methods registered for reflection
+[Sat May 06 20:25:49 CEST 2023][INFO] [SUB]      137 classes,   152 fields, and   208 methods registered for JNI access
+[Sat May 06 20:26:00 CEST 2023][INFO] [SUB] [3/7] Building universe...                                                                              (11.4s @ 2.19GB)
+[Sat May 06 20:26:13 CEST 2023][INFO] [SUB] [4/7] Parsing methods...      [****]                                                                    (12.7s @ 1.38GB)
+[Sat May 06 20:26:24 CEST 2023][INFO] [SUB] [5/7] Inlining methods...     [****]                                                                    (10.1s @ 1.47GB)
+[Sat May 06 20:27:42 CEST 2023][INFO] [SUB] [6/7] Compiling methods...    [*********]                                                               (78.4s @ 2.42GB)
+[Sat May 06 20:27:57 CEST 2023][INFO] [SUB] 
+[Sat May 06 20:27:57 CEST 2023][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Sat May 06 20:27:57 CEST 2023][INFO] [SUB]                        41.8s (13.1% of total time) in 54 GCs | Peak RSS: 4.11GB | CPU load: 3.03
+[Sat May 06 20:27:57 CEST 2023][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Sat May 06 20:27:57 CEST 2023][INFO] [SUB] Produced artifacts:
+[Sat May 06 20:27:57 CEST 2023][INFO] [SUB]  C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\javafx-native-example\hello.main.h (header)
+[Sat May 06 20:27:57 CEST 2023][INFO] [SUB]  C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\javafx-native-example\graal_isolate.h (header)
+[Sat May 06 20:27:57 CEST 2023][INFO] [SUB]  C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\javafx-native-example\hello.main_dynamic.h (header)
+[Sat May 06 20:27:57 CEST 2023][INFO] [SUB]  C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\javafx-native-example\graal_isolate_dynamic.h (header)
+[Sat May 06 20:27:58 CEST 2023][INFO] [SUB]  C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\javafx-native-example\hello.main.build_artifacts.txt
+[Sat May 06 20:27:58 CEST 2023][INFO] [SUB] ========================================================================================================================
+[Sat May 06 20:27:58 CEST 2023][INFO] [SUB] Finished generating 'hello.main' in 5m 16s.
+[Sat May 06 20:27:59 CEST 2023][FINE] Result for compile: 0
+[Sat May 06 20:27:59 CEST 2023][FINE] Logging process [compile] to file: C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\log\process-compile-1683397679678.log
+[Sat May 06 20:27:59 CEST 2023][FINE] PB Command for java-version: C:\Users\Sharam ker Ahsan\Downloads\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\bin\java --version
+[Sat May 06 20:27:59 CEST 2023][FINE] Start process java-version...
+[Sat May 06 20:28:00 CEST 2023][FINE] [SUB] openjdk 17.0.3 2022-04-19
+[Sat May 06 20:28:00 CEST 2023][FINE] [SUB] OpenJDK Runtime Environment GraalVM 22.1.0.1 (build 17.0.3+7-jvmci-22.1-b06)
+[Sat May 06 20:28:00 CEST 2023][FINE] [SUB] OpenJDK 64-Bit Server VM GraalVM 22.1.0.1 (build 17.0.3+7-jvmci-22.1-b06, mixed mode, sharing)
+[Sat May 06 20:28:00 CEST 2023][FINE] Result for java-version: 0
+[Sat May 06 20:28:00 CEST 2023][FINE] PB Command for check version: C:\Users\Sharam ker Ahsan\Downloads\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\bin\java -version
+[Sat May 06 20:28:00 CEST 2023][FINE] Start process check version...
+[Sat May 06 20:28:00 CEST 2023][FINE] [SUB] openjdk version "17.0.3" 2022-04-19
+[Sat May 06 20:28:00 CEST 2023][FINE] [SUB] OpenJDK Runtime Environment GraalVM 22.1.0.1 (build 17.0.3+7-jvmci-22.1-b06)
+[Sat May 06 20:28:00 CEST 2023][FINE] [SUB] OpenJDK 64-Bit Server VM GraalVM 22.1.0.1 (build 17.0.3+7-jvmci-22.1-b06, mixed mode, sharing)
+[Sat May 06 20:28:00 CEST 2023][FINE] Result for check version: 0

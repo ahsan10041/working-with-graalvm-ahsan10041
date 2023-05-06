@@ -1,0 +1,17 @@
+{
+  "resources":{
+  "includes":[]},
+  "bundles":[
+    {
+      "name":"com.sun.javafx.tk.quantum.QuantumMessagesBundle",
+      "locales":[""]
+    }, 
+    {
+      "name":"com/sun/glass/ui/win/themes",
+      "locales":[
+        "", 
+        "en"
+      ]
+    }
+  ]
+}

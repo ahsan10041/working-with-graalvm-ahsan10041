@@ -1,0 +1,49 @@
+[Sat May 06 20:28:00 CEST 2023][INFO] ==================== LINK TASK ====================
+[Sat May 06 20:28:00 CEST 2023][FINE] Creating icon resource
+[Sat May 06 20:28:00 CEST 2023][FINE] Looking for resource: /native/windows/assets/icon.ico
+[Sat May 06 20:28:00 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gensrc\windows\assets\icon.ico to C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\tmp\icon\icon.ico
+[Sat May 06 20:28:00 CEST 2023][INFO] Default icon.ico image generated in C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gensrc\windows\assets.
+Consider copying it to C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\src\windows before performing any modification
+[Sat May 06 20:28:00 CEST 2023][FINE] Looking for resource: /native/windows/assets/IconGroup.rc
+[Sat May 06 20:28:01 CEST 2023][FINE] PB Command for rc compile: rc -fo C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\tmp\icon\IconGroup.res C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\tmp\icon\IconGroup.rc
+[Sat May 06 20:28:01 CEST 2023][FINE] Start process rc compile...
+[Sat May 06 20:28:01 CEST 2023][FINE] [SUB] Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+[Sat May 06 20:28:01 CEST 2023][FINE] [SUB] 
+[Sat May 06 20:28:01 CEST 2023][FINE] [SUB] Copyright (C) Microsoft Corporation.  All rights reserved.
+[Sat May 06 20:28:01 CEST 2023][FINE] [SUB] 
+[Sat May 06 20:28:01 CEST 2023][FINE] [SUB] 
+[Sat May 06 20:28:01 CEST 2023][FINE] Result for rc compile: 0
+[Sat May 06 20:28:01 CEST 2023][FINE] PB Command for cvtres: cvtres  /machine:x64 -out:C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\tmp\icon\IconGroup.obj C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\tmp\icon\IconGroup.res
+[Sat May 06 20:28:01 CEST 2023][FINE] Start process cvtres...
+[Sat May 06 20:28:01 CEST 2023][FINE] [SUB] Microsoft (R) Windows Resource To Object Converter Version 14.35.32217.1
+[Sat May 06 20:28:01 CEST 2023][FINE] [SUB] Copyright (C) Microsoft Corporation.  All rights reserved.
+[Sat May 06 20:28:01 CEST 2023][FINE] [SUB] 
+[Sat May 06 20:28:01 CEST 2023][FINE] Result for cvtres: 0
+[Sat May 06 20:28:01 CEST 2023][FINE] IconGroup.obj created successfully
+[Sat May 06 20:28:01 CEST 2023][FINE] Copied resource C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\tmp\icon\IconGroup.obj to C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\javafx-native-example\IconGroup.obj
+[Sat May 06 20:28:01 CEST 2023][FINE] Looking for resource: /native/windows/launcher.c
+[Sat May 06 20:28:01 CEST 2023][FINE] PB Command for compile-additional-sources: cl -c -DSUBSTRATE /MD /D_UNICODE /DUNICODE /DWIN32 /D_WINDOWS -IC:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\javafx-native-example launcher.c
+[Sat May 06 20:28:01 CEST 2023][FINE] Start process compile-additional-sources...
+[Sat May 06 20:28:01 CEST 2023][FINE] [SUB] Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+[Sat May 06 20:28:01 CEST 2023][FINE] [SUB] Copyright (C) Microsoft Corporation.  All rights reserved.
+[Sat May 06 20:28:01 CEST 2023][FINE] [SUB] 
+[Sat May 06 20:28:01 CEST 2023][FINE] [SUB] launcher.c
+[Sat May 06 20:28:02 CEST 2023][FINE] Result for compile-additional-sources: 0
+[Sat May 06 20:28:02 CEST 2023][FINE] PB Command for link: link C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\javafx-native-example\launcher.obj C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\tmp\SVM-1683397370288\hello.main.obj C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\javafx-native-example\IconGroup.obj j2pkcs11.lib java.lib net.lib nio.lib prefs.lib fdlibm.lib zip.lib sunmscapi.lib jvm.lib libchelper.lib advapi32.lib iphlpapi.lib secur32.lib userenv.lib version.lib ws2_32.lib winhttp.lib ncrypt.lib crypt32.lib /NODEFAULTLIB:libcmt.lib /SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup comdlg32.lib dwmapi.lib gdi32.lib imm32.lib shell32.lib uiautomationcore.lib urlmon.lib winmm.lib glass.lib javafx_font.lib javafx_iio.lib prism_common.lib prism_d3d.lib /WHOLEARCHIVE:glass.lib /WHOLEARCHIVE:javafx_font.lib /WHOLEARCHIVE:javafx_iio.lib /WHOLEARCHIVE:prism_common.lib /WHOLEARCHIVE:prism_d3d.lib /OUT:C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\javafx-native-example.exe /LIBPATH:C:\Users\Sharam ker Ahsan\.gluon\substrate\javafxStaticSdk\21-ea+9.1\windows-x86_64\sdk\lib /LIBPATH:C:\Users\Sharam ker Ahsan\Downloads\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\lib\svm\clibraries\windows-amd64 /LIBPATH:C:\Users\Sharam ker Ahsan\Downloads\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\lib\static\windows-amd64
+[Sat May 06 20:28:02 CEST 2023][FINE] Start process link...
+[Sat May 06 20:28:02 CEST 2023][INFO] [SUB] Microsoft (R) Incremental Linker Version 14.35.32217.1
+[Sat May 06 20:28:02 CEST 2023][INFO] [SUB] Copyright (C) Microsoft Corporation.  All rights reserved.
+[Sat May 06 20:28:02 CEST 2023][INFO] [SUB] 
+[Sat May 06 20:28:02 CEST 2023][INFO] [SUB]    Creating library C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\javafx-native-example.lib and object C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\javafx-native-example.exp
+[Sat May 06 20:28:03 CEST 2023][FINE] Result for link: 0
+[Sat May 06 20:28:03 CEST 2023][FINE] Logging process [link] to file: C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\log\process-link-1683397683432.log
+[Sat May 06 20:28:03 CEST 2023][FINE] PB Command for find windows version: cmd.exe /c ver
+[Sat May 06 20:28:03 CEST 2023][FINE] Start process find windows version...
+[Sat May 06 20:28:03 CEST 2023][FINE] [SUB] 
+[Sat May 06 20:28:03 CEST 2023][FINE] [SUB] Microsoft Windows [Version 10.0.19044.2846]
+[Sat May 06 20:28:03 CEST 2023][FINE] Result for find windows version: 0
+[Sat May 06 20:28:03 CEST 2023][FINE] Windows version: Microsoft Windows [Version 10.0.19044.2846]
+[Sat May 06 20:28:03 CEST 2023][FINE] Windows Build number: 19044
+[Sat May 06 20:28:03 CEST 2023][FINE] PB Command for Clear Explorer cache: ie4uinit -show
+[Sat May 06 20:28:03 CEST 2023][FINE] Start process Clear Explorer cache...
+[Sat May 06 20:28:04 CEST 2023][FINE] Result for Clear Explorer cache: 0

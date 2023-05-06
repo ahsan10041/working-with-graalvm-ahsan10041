@@ -1,0 +1,45 @@
+Process
+=======
+compile
+
+Command Line
+============
+C:\Users\Sharam ker Ahsan\Downloads\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\graalvm-svm-java17-windows-gluon-22.1.0.1-Final\bin\native-image.cmd "-Djdk.internal.lambda.eagerlyInitialize=false" --no-server -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout "-H:DeadlockWatchdogInterval=0" -H:+RemoveSaturatedTypeFlows -H:+ExitAfterRelocatableImageWrite "--features=org.graalvm.home.HomeFinderFeature" "-H:TempDirectory=C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\tmp" "-H:EnableURLProtocols=http,https" "-H:ReflectionConfigurationFiles=C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\reflectionconfig-x86_64-windows.json" "-H:JNIConfigurationFiles=C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\jniconfig-x86_64-windows.json" "-H:ResourceConfigurationFiles=C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\resourceconfig-x86_64-windows.json" "-H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com/sun/glass/ui/win/themes" "-Dsvm.platform=org.graalvm.nativeimage.Platform$WINDOWS_AMD64" -cp "C:\Users\Sharam ker Ahsan\.m2\repository\com\gluonhq\substrate\0.0.58\substrate-0.0.58.jar;C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\tmp\classpathJar.jar" hello.Main
+
+Output
+======
+Warning: Ignoring server-mode native-image argument --no-server.
+========================================================================================================================
+GraalVM Native Image: Generating 'hello.main' (shared library)...
+========================================================================================================================
+[1/7] Initializing...                                                                                   (19.2s @ 0.15GB)
+ Version info: 'GraalVM 22.1.0.1 Java 17 CE'
+ C compiler: cl.exe (microsoft, x64, 19.35.32217)
+ Garbage collector: Serial GC
+[2/7] Performing analysis...  [**************]                                                         (168.4s @ 2.80GB)
+  11,483 (90.21%) of 12,729 classes reachable
+  20,413 (66.26%) of 30,807 fields reachable
+  56,615 (63.45%) of 89,225 methods reachable
+     660 classes,   179 fields, and 2,917 methods registered for reflection
+     137 classes,   152 fields, and   208 methods registered for JNI access
+[3/7] Building universe...                                                                              (11.4s @ 2.19GB)
+[4/7] Parsing methods...      [****]                                                                    (12.7s @ 1.38GB)
+[5/7] Inlining methods...     [****]                                                                    (10.1s @ 1.47GB)
+[6/7] Compiling methods...    [*********]                                                               (78.4s @ 2.42GB)
+
+------------------------------------------------------------------------------------------------------------------------
+                       41.8s (13.1% of total time) in 54 GCs | Peak RSS: 4.11GB | CPU load: 3.03
+------------------------------------------------------------------------------------------------------------------------
+Produced artifacts:
+ C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\javafx-native-example\hello.main.h (header)
+ C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\javafx-native-example\graal_isolate.h (header)
+ C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\javafx-native-example\hello.main_dynamic.h (header)
+ C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\javafx-native-example\graal_isolate_dynamic.h (header)
+ C:\Users\Sharam ker Ahsan\Desktop\working-with-graalvm-ahsan10041\target\gluonfx\x86_64-windows\gvm\javafx-native-example\hello.main.build_artifacts.txt
+========================================================================================================================
+Finished generating 'hello.main' in 5m 16s.
+
+
+Result
+======
+result: 0
