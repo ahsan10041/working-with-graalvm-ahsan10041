@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: slateblue;"
+            xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="hello.HelloWorldController">
+    <children>
+        <StackPane layoutY="-46.4111328125" prefHeight="200.0" prefWidth="600.0" AnchorPane.topAnchor="200.0">
+            <children>
+                <Text fill="GOLD" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello, World!">
+                    <font>
+                        <Font name="SansSerif Bold" size="50.0"/>
+                    </font>
+                </Text>
+            </children>
+        </StackPane>
+        <Label fx:id="sysInfoLabel" text="Label" textFill="WHITE" AnchorPane.bottomAnchor="0.0"
+               AnchorPane.leftAnchor="0.0">
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+            </padding>
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
